@@ -41,7 +41,7 @@ int readIntInRange(int minVal, int maxVal) {
             }
         }
         // invalid input
-        cout << "Invalid input. Please enter a number between" << minVal << " and " << maxVal << ":";
+        cout << "Invalid input. Please enter a number between "<< minVal << " and " << maxVal << ":";
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
@@ -62,10 +62,10 @@ int main() {
 
     srand(static_cast<unsigned int>(time(nullptr)));
 
-    // ---------------------------------
+    // --------------------------------
     // Category song databases
     // Each vector contains ~10 entries as requested
-    // ---------------------------------
+    // --------------------------------
     vector<Song> pop = {
         {"Thriller", "Michael Jackson", 1982, "1.2B"},
         {"Like a Prayer", "Madonna", 1989, "450M"},
@@ -231,6 +231,6 @@ int main() {
     } // end main loop
 
     // Final message
-    cout << "\nThanks for using the Music Recommender prototype! Good luck with the project.\n";
+    cout << "\nThanks for using the Music Recommender prototype!\n";
     return 0; // indicate success to the OS
 }
