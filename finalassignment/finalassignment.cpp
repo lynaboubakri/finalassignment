@@ -65,7 +65,7 @@ int main() {
     // ---------------------------------
     // Category song databases
     // Each vector contains ~10 entries as requested
-    // ---------------------------------
+    // --------------------------------
     vector<Song> pop = {
         {"Thriller", "Michael Jackson", 1982, "1.2B"},
         {"Like a Prayer", "Madonna", 1989, "450M"},
