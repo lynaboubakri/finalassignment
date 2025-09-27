@@ -106,7 +106,11 @@ int main() {
         {"God's Plan", "Drake", 2018, "2.1B"},
         {"SICKO MODE", "Travis Scott", 2018, "1.4B"},
         {"Industry Baby", "Lil Nas X & Jack Harlow", 2021, "1.1B"},
-        {"Top 2025 Hip-Hop Hit", "Artist TBD", 2025, "Fresh Release"}
+        {"Top 2025 Hip-Hop Hit", "Artist TBD", 2025, "Fresh Release"},
+        // Added by Hikma Example: 3 hiphop songs
+        {"Street Echo", "MC Example", 2018, "3M"},
+        {"Beats & Rhymes", "Rapper Z", 2020, "1.2M"},
+        {"Old School Flow", "Legend X", 1999, "2.8M"}
     };
 
     vector<Song> jazz = {
