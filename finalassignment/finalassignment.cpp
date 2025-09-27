@@ -77,6 +77,10 @@ int main() {
         {"Flowers", "Miley Cyrus", 2023, "1B"},
         {"Vampire", "Olivia Rodrigo", 2023, "320M"},
         {"Top 2025 New Pop Song", "Artist TBD", 2025, "Fresh Release"}
+        //Added by Nuhamin :3 pop songs
+        {"Good Vibes", "New Artist A", 2019, "12M"},
+        {"Sunrise Dreams", "Artist B", 2021, "5.4M"},
+        {"Retro Love", "Artist C", 1998, "8.5M"}
     };
 
     vector<Song> rock = {
