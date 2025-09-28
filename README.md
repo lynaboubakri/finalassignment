@@ -6,3 +6,8 @@ This is a simple Spotify-style recommender system developed for our group projec
 - The program then randomly recommends a song with title, artist, year, and views.  
 - Users can request another recommendation, pick a new genre, or exit.  
 
+## How to run
+Compile with: g++ -std=c++11 -o MusicRecommender finalassignment/finalassignment.cpp  
+Run: ./MusicRecommender  
+
+Contributed by: Lucas Lau — added documentation and testing results.
